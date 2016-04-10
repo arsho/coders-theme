@@ -30,13 +30,13 @@ Coders theme for [Brackets](http://brackets.io) editor.
 </table>
 
 ### HTML
-![HTML Screenshot](http://arsho.github.io/BarChartD3/assets/screenshot/BarChartD3Mid.png)
+![HTML Screenshot](https://github.com/arsho/coders-theme/blob/master/screenshot/html.png)
 
 ### CSS
-![CSS Screenshot](http://arsho.github.io/BarChartD3/assets/screenshot/BarChartD3Mid.png)
+![CSS Screenshot](https://github.com/arsho/coders-theme/blob/master/screenshot/css.png)
 
 ### Javascript
-![Javascript Screenshot](http://arsho.github.io/BarChartD3/assets/screenshot/BarChartD3Mid.png)
+![Javascript Screenshot](https://github.com/arsho/coders-theme/blob/master/screenshot/javascript.png)
 
 ### PHP
-![PHP Screenshot](http://arsho.github.io/BarChartD3/assets/screenshot/BarChartD3Mid.png)
+![PHP Screenshot](https://github.com/arsho/coders-theme/blob/master/screenshot/php.png)
