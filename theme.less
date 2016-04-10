@@ -1,0 +1,321 @@
+/*
+    Name        : coders-theme
+    Title       : Coders Theme
+    Description : Theme for coders!
+    Version     : 1.0.0
+    Author      : Ahmedur Rahman Shovon <shovon.sylhet@gmail.com> (http://datamate.ws/)
+	Homepage    : https://github.com/arsho/coders-theme
+*/
+
+
+/* Color variables */
+
+@background: #ffffff;
+@foreground: #000000;
+@comment: rgb(150, 150, 150);
+@orange: rgb(206, 123, 0);
+@purple: rgb(159, 13, 121);
+@blue: rgb(0, 0, 230);
+@magenta: #a71d5d;
+@green: rgb(0, 153, 0);
+@red: #ff0000;
+@yellow: rgb(243, 255, 15);
+@css-preprocessor-variable: rgb(0, 102, 102);
+@php-variable: rgb(109, 50, 6);
+
+/* Selection colors */
+
+@selected-text: rgb(176, 197, 227);
+@selection-color-focused: rgb(176, 197, 227);
+@selection-color-unfocused: #424242;
+@activeline-bgcolor: #E9EFF8;
+@activeline-number-bgcolor: rgba(96, 96, 96, 0.2);
+
+/* General style for all language starts */
+
+.CodeMirror .cm-keyword {
+    color: @blue;
+}
+
+.CodeMirror .cm-atom {
+    color: @green;
+}
+
+.CodeMirror .cm-number {
+    color: @foreground;
+}
+
+.CodeMirror .cm-def {
+    color: @foreground;
+}
+
+.CodeMirror .cm-variable {
+    color: @purple;
+}
+
+.CodeMirror .cm-variable-2 {
+    color: @orange;
+}
+
+.CodeMirror .cm-variable-3 {
+    color: @blue;
+}
+
+.CodeMirror .cm-property {
+    color: @green;
+}
+
+.CodeMirror .cm-operator {
+    color: @foreground;
+}
+
+.CodeMirror .cm-comment {
+    color: @comment;
+}
+
+.CodeMirror .cm-string {
+    color: @orange;
+}
+
+.CodeMirror .cm-string-2 {
+    color: @foreground;
+}
+
+.CodeMirror .cm-meta {
+    color: @green;
+}
+
+.CodeMirror .cm-error {
+    color: @red;
+    border-bottom: 1px dashed @red;
+}
+
+.CodeMirror .cm-qualifier {
+    color: @green;
+}
+
+.CodeMirror .cm-builtin {
+    color: @orange;
+}
+
+.CodeMirror .cm-bracket {
+    color: @foreground;
+}
+
+.CodeMirror .cm-tag {
+    color: @blue;
+}
+
+.CodeMirror .cm-attribute {
+    color: @green;
+}
+
+.CodeMirror .cm-header {
+    color: @magenta;
+}
+
+.CodeMirror .cm-quote {
+    color: @purple;
+}
+
+.CodeMirror .cm-hr {
+    color: @orange;
+}
+
+.CodeMirror .cm-link {
+    color: @blue;
+}
+
+.CodeMirror .cm-rangeinfo {
+    color: @foreground;
+}
+
+.CodeMirror .cm-minus {
+    color: @red;
+}
+
+.CodeMirror .cm-plus {
+    color: @foreground;
+}
+
+
+/* General style for all language ends */
+
+
+/* General style for CSS/LESS starts */
+
+.cm-m-css.cm-property {
+    color: @blue;
+}
+
+.cm-m-css.cm-variable-2 {
+    color: @css-preprocessor-variable;
+}
+
+.cm-m-css.cm-builtin {
+    color: @green;
+}
+
+
+/* General style for CSS/LESS ends */
+
+
+/* General style for PHP starts */
+
+.cm-m-clike.cm-keyword {
+    color: @blue;
+}
+
+.cm-m-clike.cm-atom {
+    color: @green;
+}
+
+.cm-m-clike.cm-number {
+    color: @purple;
+}
+
+.cm-m-clike.cm-def {
+    color: @foreground;
+}
+
+.cm-m-clike.cm-variable {
+    color: @green;
+}
+
+.cm-m-clike.cm-variable-2 {
+    color: @php-variable;
+}
+
+.cm-m-clike.cm-variable-3 {
+    color: @blue;
+}
+
+.cm-m-clike.cm-property {
+    color: @green;
+}
+
+.cm-m-clike.cm-operator {
+    color: @foreground;
+}
+
+.cm-m-clike.cm-comment {
+    color: @comment;
+}
+
+.cm-m-clike.cm-string {
+    color: @orange;
+}
+
+.cm-m-clike.cm-string-2 {
+    color: @foreground;
+}
+
+.cm-m-clike.cm-meta {
+    color: @green;
+}
+
+.cm-m-clike.cm-error {
+    color: @red;
+    border-bottom: 1px dashed @red;
+}
+
+.cm-m-clike.cm-qualifier {
+    color: @green;
+}
+
+.cm-m-clike.cm-builtin {
+    color: @foreground;
+}
+
+.cm-m-clike.cm-bracket {
+    color: @foreground;
+}
+
+.cm-m-clike.cm-tag {
+    color: @blue;
+}
+
+.cm-m-clike.cm-attribute {
+    color: @green;
+}
+
+
+/* General style for PHP ends */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background-color: @selection-color-unfocused;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: rgba(200, 200, 250, 1);
+}
+
+.CodeMirror .CodeMirror-gutters {
+    background-color: @background;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: @foreground !important;
+}
+
+.CodeMirror-gutter-elt {
+    color: @comment !important;
+}
+
+.CodeMirror .CodeMirror-matchingbracket {
+    background-color: @yellow;
+    border-radius: 2px;
+}
+
+.CodeMirror .CodeMirror-linenumber {
+    color: @activeline-number-bgcolor;
+    font-weight: bold;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: @activeline-bgcolor !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: rgba(244, 209, 36, 0.5);
+}
+
+.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid @foreground !important;
+}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @foreground;
+    width: 1.2ex;
+}
+
+
+/**
+ * Bookmarks (https://github.com/JeffryBooher/brackets-bookmarks-extension)
+ * ------------------------------------------------------------------------
+ */
+
+.bookmark .CodeMirror-linenumber {
+    color: #ffffff !important;
+    background-color: dodgerblue !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+
+#image-holder {
+    color: @foreground;
+}

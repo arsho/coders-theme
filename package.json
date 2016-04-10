@@ -1,0 +1,22 @@
+{
+    "name": "coders-theme",
+    "title": "Coders Theme",
+    "description": "Theme for coders!",
+    "version": "1.0.0",
+    "author": "Ahmedur Rahman Shovon <shovon.sylhet@gmail.com> (http://datamate.ws/)",
+	"homepage": "https://github.com/arsho/coders-theme",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/arsho/coders-theme.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },	
+    "theme": {
+        "file": "theme.less",
+        "dark": false,
+        "addModeClass": true
+    },	
+    "keywords": ["theme", "coders", "coders-theme", "light", "programmer", "Coders Theme", "coder"],
+	"screenshot": "screenshot.png"
+}
